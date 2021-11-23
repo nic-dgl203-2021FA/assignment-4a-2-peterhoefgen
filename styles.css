@@ -10,6 +10,9 @@
           box-sizing: inherit;
 }
 
+/* 
+  Variables for fonts, sizes, and colours.
+*/
 body {
   background-color: #709b90;
   font-family: Helvetica Arial sans-serif;
