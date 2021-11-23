@@ -168,9 +168,5 @@ $fontFamily: sans-serif;
   }
 
   .cta-button {
-    display: block;
-    background-color: $backgroundOrange;
-    color: white;
-    padding: .5em 1em;
-    text-decoration: none;
+    @include buttonStyle;
   }
