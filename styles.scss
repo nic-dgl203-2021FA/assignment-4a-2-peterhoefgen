@@ -31,6 +31,14 @@ $fontFamily: sans-serif;
     text-decoration: none;
 }
 
+@mixin buttonStyle {
+    display: block;
+    background-color: $backgroundOrange;
+    color: white;
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
   body {
     background-color: $bodycolorGreen;
     font-family: $fontStyle1 $fontStyle2 $fontFamily;
