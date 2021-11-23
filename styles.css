@@ -13,6 +13,9 @@
 /* 
   Variables for fonts, sizes, and colours.
 */
+/*
+  Create buttonStyle and navLinks mixins for `.site-nav > li > a` and `.cta-button` 
+*/
 body {
   background-color: #709b90;
   font-family: Helvetica Arial sans-serif;
@@ -97,13 +100,11 @@ nav {
   text-align: right;
   text-transform: uppercase;
 }
-
 .login-form input:not([type=checkbox]):not([type=radio]) {
   display: block;
   margin-top: 0;
   width: 100%;
 }
-
 .login-form button {
   margin-top: 1em;
   border: 1px solid #cc6b5a;
@@ -128,8 +129,7 @@ nav {
           align-items: center;
   line-height: 0.7;
 }
-
-.cost > span {
+.cost span {
   margin-top: 0;
 }
 

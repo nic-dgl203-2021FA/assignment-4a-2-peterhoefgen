@@ -23,6 +23,10 @@ $fontStyle1: Helvetica;
 $fontStyle2: Arial;
 $fontFamily: sans-serif;
 
+/*
+  Create buttonStyle and navLinks mixins for `.site-nav > li > a` and `.cta-button` 
+*/
+
 @mixin navLinks {
     display: block;
     padding: .5em 1em;
@@ -121,7 +125,9 @@ $fontFamily: sans-serif;
     
   }
 
-  .login-form h3 {
+.login-form {
+
+ h3 {
     margin: $marginSize;
     font-size: .9em;
     font-weight: bold;
@@ -129,20 +135,20 @@ $fontFamily: sans-serif;
     text-transform: uppercase;
   }
 
-  .login-form input:not([type=checkbox]):not([type=radio]) {
+ input:not([type=checkbox]):not([type=radio]) {
     display: block;
     margin-top: $marginSize;
     width: 100%;
   }
 
-  .login-form button {
+ button {
     margin-top: 1em;
     border: 1px solid $backgroundOrange;
     background-color: white;
     padding: .5em 1em;
     cursor: pointer;
   }
-
+}
   .centered {
     text-align: center;
   }
@@ -152,10 +158,10 @@ $fontFamily: sans-serif;
     justify-content: center;
     align-items: center;
     line-height: .7;
-  }
 
-  .cost > span {
-    margin-top: $marginSize;
+      span {
+         margin-top: $marginSize;
+      }
   }
 
   .cost-currency {
