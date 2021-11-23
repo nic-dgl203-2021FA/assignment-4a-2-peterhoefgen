@@ -12,7 +12,7 @@
 
 body {
   background-color: #709b90;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica Arial sans-serif;
 }
 
 .container {
@@ -145,7 +145,7 @@ nav {
 }
 
 .cost-cents {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
