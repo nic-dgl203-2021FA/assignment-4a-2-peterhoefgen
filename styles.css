@@ -52,11 +52,9 @@ nav {
   padding: 1.5em;
   background-color: #fff;
 }
-
-.tile > :first-child {
+.tile :first-child {
   margin-top: 0;
 }
-
 .tile * + * {
   margin-top: 1.5em;
 }

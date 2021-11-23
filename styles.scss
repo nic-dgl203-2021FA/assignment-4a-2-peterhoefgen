@@ -80,15 +80,16 @@ $fontFamily: sans-serif;
   .tile {
     padding: $emSizeLarge;
     background-color: #fff;
-  }
 
-  .tile > :first-child {
-    margin-top: $marginSize;
-  }
+    :first-child {
+        margin-top: $marginSize;
+      }
 
-  .tile * + * {
-    margin-top: $emSizeLarge;
-  }
+    * + * {
+        margin-top: $emSizeLarge;
+      }
+    
+}
 
   .page-heading {
     margin: $marginSize;
