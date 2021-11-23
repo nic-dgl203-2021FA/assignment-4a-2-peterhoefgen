@@ -101,22 +101,23 @@ $fontFamily: sans-serif;
     background-color: $backgroundBrown;
     list-style-type: none;
     border-radius: .2em;
-  }
+    
+    li {
+        margin-top: $marginSize;
+      }
+  
+    li > a {
+        @include navLinks;
+    }
 
-  .site-nav > li {
-    margin-top: $marginSize;
-  }
+    li + li {
+        margin-left: $emSizeLarge;
+      }
 
-  .site-nav > li > a {
-    @include navLinks;
-  }
-
-  .site-nav > li + li {
-    margin-left: $emSizeLarge;
-  }
-
-  .site-nav > .nav-right {
-    margin-left: auto;
+      .nav-right {
+        margin-left: auto;
+      }
+    
   }
 
   .login-form h3 {
