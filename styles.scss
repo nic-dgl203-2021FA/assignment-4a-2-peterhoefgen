@@ -23,6 +23,14 @@ $fontStyle1: Helvetica;
 $fontStyle2: Arial;
 $fontFamily: sans-serif;
 
+@mixin navLinks {
+    display: block;
+    padding: .5em 1em;
+    background-color: $backgroundOrange;
+    color: white;
+    text-decoration: none;
+}
+
   body {
     background-color: $bodycolorGreen;
     font-family: $fontStyle1 $fontStyle2 $fontFamily;
@@ -92,11 +100,7 @@ $fontFamily: sans-serif;
   }
 
   .site-nav > li > a {
-    display: block;
-    padding: .5em 1em;
-    background-color: $backgroundOrange;
-    color: white;
-    text-decoration: none;
+    @include navLinks;
   }
 
   .site-nav > li + li {
